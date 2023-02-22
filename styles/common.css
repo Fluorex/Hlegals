@@ -1,0 +1,133 @@
+@import "fonts.css";
+
+:root {
+    --main-color: #323264;
+    --main-black: #000000;
+    --main-white: white;
+    --gradient-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    --blue-main: #24A3FF;
+    --blue-hover: #0085FF;
+    --blue-active: #006CCF;
+    --pink-accent: #F0145A;
+    --h3-color: #686887;
+    --span-color: #B3B3BA;
+}
+
+html {
+    font-family: "TT Norms", sans-serif
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--main-color)
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--main-color)
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--main-color)
+}
+
+h3.caps {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--main-color)
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--main-color)
+}
+
+
+.gradientText {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media (min-width: 568px) {
+    h1 {
+        font-size: 42px;
+        line-height: 50px;
+        color: var(--gradient-text)
+
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 28px;
+        color: var(--h3-color)
+    }
+}
+
+p {
+    color: var(--main-white)
+}
+
+.link {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--blue-main);
+    transition: all 0.25s;
+}
+
+.link:hover {
+    color: var(--pink-accent)
+}
+
+.active-link {
+    color: var(--pink-accent);
+    text-decoration: underline
+}
+
+button {
+    background: var(--blue-main);
+    box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    font-size: 14px;
+    text-align: center;
+    color: var(--main-white);
+    padding: 16px 16px 17px;
+    max-width: 250px;
+    width: 100%;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--blue-hover);
+    box-shadow: 0 0 30px rgba(36, 163, 255, 0.5);
+}
+
+button:active {
+    box-shadow: none;
+    background: var(--blue-active)
+}
+
+img:hover {
+    opacity: 80%;
+    transition: 1s;
+}
+*{-webkit-tap-highlight-color: transparent;}
