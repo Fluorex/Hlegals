@@ -6,14 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hlegals</title>
-  <link rel="stylesheet" href="../styles/reset.css">
-  <link rel="stylesheet" href="../styles/about.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/about.css">
 </head>
 <body>
 <header>
     <div class="header">
         <div class="logo-img">
-            <img src="../img/logo-about.svg" alt="img">
+            <a href="../index.html">  <img src="../img/logo-about.svg" alt="img"></a>
         </div>
 
         <div class="header-contacts1">
@@ -42,15 +42,74 @@
                 <a href="./services.html" class="link" target="_blank">послуги</a>
                 <a href="./team.html" class="link" target="_blank">команда</a>
                 <a href="#" class="link">публікації</a>
-                <a href="#" class="link">контакти</a>
+                <a href="#" class="link" id="header-contacts">контакти</a>
             </div>
         </div>
     </div>
 </header>
 
 <main>
+    <section class="section-1">
+        <div class="sec1-content-1">
+            <div class="sec1-content">
+                <div class="sec1-text"><p>Одеса, <br>Адміральський пр., 3</p></div>
+                <div class="sec1-text-2">+38 (050) 390 15 95</div>
+                <a href="#" class="link">contact@hlegals.net</a>
+                <div class="sec1-text-3">
+                    <svg height="38px" width="38px">
+                        <use href="../sprite.svg#footer-facebook"></use>
+                    </svg>
+                    <a class="link" >Наша сторінка в фейсбуці</a>
+                </div>
+            </div>
 
 
+            <div class="form">
+                <h2>Ми хотіли б Вам допомогти</h2>
+                <input type="text" placeholder="Iм’я" class="input">
+                <textarea placeholder="Повідомлення" class="input"></textarea>
+                <p>Як вам відповісти?</p>
+                <input type="number" placeholder="Номер телефона" class="input">
+                <input type="email" placeholder="Чи email" class="input">
+                <div class="flex"><button>Надіслати запит</button></div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section-2">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4570.285260205281!2d36.25234836825066!3d49.9928735716595!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1678727830987!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+
+    </section>
+
+    <footer>
+
+        <div class="section5-footer">
+            <div class="footer-contacts">
+                <div class="footer-contacts-1">
+                    <span>Одеса, Адміральський пр., 3</span>
+                    <div class="footer-circle"></div>
+                    <a href="#" class="link">Подивитися на мапі</a>
+                </div>
+
+
+                <div class="footer-contacts-2">
+                    <svg height="38px" width="38px">
+                        <use href="../sprite.svg#footer-facebook"></use>
+                    </svg>
+                    <div class="footer-circle"></div>
+                    <a href="tel: +38(050)3901591"><span>+38 (050) 390 15 91</span></a>
+                    <div class="footer-circle"></div>
+                    <a href="mailto: contact@hlegals.net" class="link">contact@hlegals.net</a>
+                </div>
+                <div class="footer-end">© 2021 ТОВ Юридична компанія «HLEGALS»</div>
+            </div>
+
+        </div>
+    </footer>
 
 </main>
 

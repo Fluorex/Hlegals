@@ -27,6 +27,8 @@ main {
 .header-contacts1 {
     margin: 54px 60px 0 0;
 }
+#header-contacts {color: #F0145A;
+    text-decoration: underline}
 
 .header-contacts {
     max-width: 564px;
@@ -103,9 +105,223 @@ main {
     justify-content: flex-end;
     gap: 15px;
     margin-top: 16px;
-    }
+}
 .nav-links-header a {font-weight: 400;
     font-size: 18px;
     line-height: 21px;
 }
 .nav-links-header a:hover {text-decoration: underline}
+.section-1 {padding-top: 200px;
+    max-width: 1440px;
+    margin: 0 auto;}
+.sec1-content-1 {display: flex;
+    justify-content: space-between;
+    padding: 0 173px 80px;}
+
+.sec1-content {padding-top: 125px;
+    width: 414px}
+
+.sec1-text {border-bottom: 4px solid #E6E6F0;}
+.sec1-text p {font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #323264;
+    margin-bottom: 20px}
+
+.sec1-text-2 {font-size: 21px;
+    line-height: 30px;
+    color: #46466E;
+    margin: 40px 0 20px 0}
+
+.sec1-content a {font-size: 21px;
+    line-height: 30px;
+}
+
+.sec1-text-3 {border-top: 4px solid #E6E6F0;
+    margin: 40px 0 0 0;
+    padding-top: 20px;}
+
+.sec1-text-3 a {font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 10px;}
+
+.form {padding:20px;
+    max-width: 527px;
+    background: #F5F5FA;
+    border-radius: 12px;}
+.form h2 {background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px
+}
+.input {background: #FFFFFF;
+    border-radius: 8px;
+    padding: 11px 10px 10px;
+    color: black;
+    width: 100%;
+    margin-bottom: 20px}
+::placeholder {font-size: 18px;
+    line-height: 26px;
+    color: #B3B3BA;
+}
+textarea {resize: none;
+    height: 180px;}
+.form p {font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B3B3BA;
+    margin-bottom: 10px}
+.flex {display: flex;
+    justify-content: center}
+.section-2 {max-width: 1440px;
+    width: 100%}
+footer {
+    background: #F5F5FA;
+    padding: 0 20px 118px 20px;
+}
+
+.section5-footer {
+    border-top: 4px solid #E6E6F0;
+    position: static;
+    bottom: 190px;
+    margin: 0 auto;
+    max-width: 335px;
+}
+
+.footer-contacts {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-contacts-1 {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    align-items: center
+}
+
+.footer-contacts-1 a {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 10px 0 0 0
+}
+
+.footer-contacts-1 span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #323264;
+    margin-right: 0
+}
+
+.footer-circle {
+    display: none;
+    width: 6px;
+    height: 6px;
+    background: #B3B3BA;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: 7px 10px 6px 0;
+}
+
+.footer-contacts-2 {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 335px;
+    align-items: center;
+}
+
+.footer-contacts-2 .footer-circle {
+    margin: 15px 3px 16px 10px
+}
+
+.footer-contacts-2 span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #46466E;
+    margin: 20px 0
+}
+
+.footer-contacts-2 a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 0 0 0
+}
+
+.footer-end {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B3B3BA;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+
+@media (min-width: 1024px) {
+    footer {
+        padding: 0 60px 40px 60px;
+        height: 151px;
+    }
+
+    .section5-footer {
+        position: static;
+        max-width: 1440px;
+    }
+
+    .footer-contacts {
+        display: block;
+        padding-top: 34px;
+    }
+
+    .footer-contacts-1 {
+        flex-direction: unset;
+        width: unset;
+        align-items: unset
+    }
+
+    .footer-circle {
+        display: block
+    }
+
+    .footer-contacts-2 {
+        flex-direction: unset;
+        width: unset;
+        align-items: unset
+    }
+
+    .footer-end {
+        margin-top: -79px;
+    }
+
+    .footer-contacts-1 a {
+        margin: 4px 0 1px 0
+    }
+
+    .footer-contacts-1 span {
+        margin-right: 31px
+    }
+
+    .footer-contacts-2 span {
+        margin: 9px 0
+    }
+
+    .footer-contacts-2 a {
+        margin: 8px 0 9px 7px
+    }
+}
